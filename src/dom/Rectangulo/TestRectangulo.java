@@ -9,15 +9,17 @@ public class TestRectangulo {
 		rec.base = 4;
 		int resultadoArea = rec.area();
 		System.out.println("El area es: " + resultadoArea);
-		
-		
-		
-		
+
 		Rectangulo rec2 = new Rectangulo();
-		rec2.altura = 6;
-		rec2.base = 67;
+		rec2.altura = 2;
+		rec2.base = 4;
 		int resultadoArea2 = rec2.area();
 		System.out.println("El area es: " + resultadoArea2);
+		 
+		int perimetro = rec2.calcularPerimetro();
+		System.out.println("El perimetro es:"+ perimetro);
+		
+		
 	}
 
 }
