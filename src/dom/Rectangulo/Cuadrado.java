@@ -1,7 +1,8 @@
 package dom.Rectangulo;
 
 public class Cuadrado {
-	public int lado;
+
+	public double lado;
 
 	public double calcularArea() {
 		double areaCuadrado = Math.pow(lado, 2);
